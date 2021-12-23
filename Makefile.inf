@@ -20,7 +20,7 @@ all: install
 install:
 	cp -r luasrc/* $(MODULE_FILES_DIR)
 	cp -r luci-static/* $(CSS_FILES_DIR)
-
+	cp -r etc/config/* /etc/config/
 clean:
 	rm -r $(MODULE_FILES_CONTROLLER)
 	rm -r $(MODULE_FILES_MODEL)
